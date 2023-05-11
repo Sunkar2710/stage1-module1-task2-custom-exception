@@ -3,6 +3,11 @@ package com.epam.mjc;
 
 import java.util.Arrays;
 
+class StudentIllegalArgumentException extends IllegalArgumentException {
+  public StudentIllegalArgumentException(String message) {
+    super(message);
+  }
+}
 public enum Student {
 
   MAX(1, "Max", 15),
